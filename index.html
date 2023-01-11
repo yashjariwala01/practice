@@ -24,9 +24,63 @@
         <li data-ns-test="holidayList">meghalaya</li>
         </ul>
     </div>
-
+    <br>
+    <br>
+    <br>
     <div>
-        <button class="btn">remove everything</button>
+        <form action="#" method="post">
+            <div>
+                <label for="email">Email Address</label><br>
+                <input type="email" placeholder="eg: john@example.com" name="email">
+            </div>
+            <div>
+                <label for="firstname">Fullname</label><br>
+                <input type="text" name="firstname" placeholder="your First name">
+                <input type="text" placeholder="your Last name">
+            </div>
+            <div>
+                <label for="address">Address</label><br>
+                <input type="text" name="streetAddress" placeholder="gali number"><br>
+                <input type="text" name="colonyAddress" placeholder="colonyName">   
+            </div>
+            <div>
+                <label for="city">City</label><br>
+                <input type="text" name="city" placeholder="city name">
+                <select name="states" id="indianStates">
+                    <option value="haryana">haryana</option>
+                    <option value="UP">UP</option>
+                    <option value="MP">MP</option>
+                </select>
+                <input type="number">
+            </div>
+            <div>
+                <label for="radio-tech used">what radio technology are you using?</label><br>
+                <input type="checkbox" name="internet-tech-1" value="2G">2G
+                <input type="checkbox" name="internet-tech-2" value="3G">3G
+                <input type="checkbox" name="internet-tech-3" value="4G">4G
+                <input type="checkbox" name="internet-tech-4" value="5G">5G
+            </div>
+            <div>
+                <label for="data-consumption">how much data do you use every month</label><br>
+                <input type="radio" name="data-consumed"> 0-5gb
+                <input type="radio" name="data-consumed"> 5-15gb
+                <input type="radio" name="data-consumed"> 15-25gb
+                <input type="radio" name="data-consumed"> 25-50gb
+            </div>
+            <div>
+                <label for="subscription"> subscription</label><br>
+                <input type="month"> <br>
+                <input type="file"><br>
+                <input type="time"><br>
+                <input type="password"><br>
+                <input type="color"><br> 
+                <input type="image"><br>
+                <input type="button" name="readmebutton" value="readme" >
+                <div>
+                    <input type="submit"value="submit"><br>
+                    <input type="reset" value="reset">
+                </div>
+        </form>
     </div>
 </body>
 </html>

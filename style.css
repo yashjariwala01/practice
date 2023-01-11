@@ -27,5 +27,40 @@ p{
     background-color: black;
     color: white;
     cursor: pointer;
-    
+}
+
+.read-link:active{
+    color: green;
+}
+
+/* unvisited links */
+.read-link:link{
+    color: purple;
+}
+
+/* visited links */
+.read-link:visited{
+    color: purple;
+}
+
+.read-link:hover{
+    color: green;
+}
+
+/* pseudo-element selector */
+
+/* ::first-letter */
+.pseudo::first-letter{
+    color: blue;
+}
+
+/* first line */
+.pseudo::first-line{
+    color: pink;
+    background-color: black;
+}
+
+/* marker */
+.pseudo::marker{
+    color: blueviolet;
 }
