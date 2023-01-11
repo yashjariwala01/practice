@@ -1,0 +1,31 @@
+*{
+    color: black;
+}
+
+.group1{
+    color: black;
+}
+
+p{
+    color: purple;
+}
+
+#yash{
+    color: black;
+}
+
+/* pseudo-class selector */
+
+.btn{
+    background-color: orange;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    
+}
